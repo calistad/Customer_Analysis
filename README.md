@@ -192,10 +192,13 @@ Overall, the **Functional API** Model achieves a better performance, which shoul
 
 ## Resources
 
-Dataset: https://www.kaggle.com/datasets/hkhamnakhalid/customers-to-subscription-through-app-behavior?select=clean_FineTech_appData.csv
+Customers_to_Subscription_Through_App_Behavior. (2021, April 6). Kaggle. Retrieved September 20, 2022, from https://www.kaggle.com/datasets/hkhamnakhalid/customers-to-subscription-through-app-behavior?select=clean_FineTech_appData.csv
 
-Lift Curve: https://towardsdatascience.com/the-lift-curve-unveiled-998851147871
+Li, S. (2021, December 9). Building a Content Based Recommender System for Hotels in Seattle. Medium. Retrieved September 20, 2022, from https://towardsdatascience.com/building-a-content-based-recommender-system-for-hotels-in-seattle-d724f0a32070
 
+Market Basket Analysis. (2021b, December 9). Kaggle. Retrieved September 20, 2022, from https://www.kaggle.com/datasets/aslanahmedov/market-basket-analysis
+
+Thorn, J. (2021, December 13). The Lift Curve: Unveiled - Towards Data Science. Medium. Retrieved September 20, 2022, from https://towardsdatascience.com/the-lift-curve-unveiled-998851147871
 
 UCI Machine Learning Repository: Sentiment Labelled Sentences Data Set. (2015). UCI Machine Learning Repository. https://archive.ics.uci.edu/ml/datasets/Sentiment+Labelled+Sentences
 
