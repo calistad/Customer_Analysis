@@ -86,7 +86,9 @@ Analyze Support, Lift, and Confidence Metrics.
 
 ### Findings
 
-* Apriori - Top 5 products with the highest support values.
+* Apriori
+
+Top 5 products with the highest support values.
 
 ![Screen Shot 2022-09-19 at 10 13 48 PM](https://user-images.githubusercontent.com/88747464/191152220-5715f01c-0d6d-40f3-9184-b737899b77f2.png)
 
@@ -138,7 +140,9 @@ Use Natural Language Processing (NLP) to cleaned the reviews.
 
 ![Screen Shot 2022-09-19 at 10 41 11 PM](https://user-images.githubusercontent.com/88747464/191155469-dc4bfb75-ef93-4e28-baa8-cc47688c1e37.png)
 
-* Sequential API Model
+### Findings
+
+#### Sequential API Model
 
 ![Screen Shot 2022-07-17 at 3 00 38 PM](https://user-images.githubusercontent.com/88747464/179420849-aff9084f-abcb-4ab8-83d1-80807eaa5b50.png)
 
@@ -151,9 +155,9 @@ Use Natural Language Processing (NLP) to cleaned the reviews.
 | Validation | 54% | 4.04 |
 | Testing | 51% | 1.63 |
 
-**ROC-AUC** score is 0.52.
+ROC-AUC score is 0.52.
 
-* Functional API Model
+#### Functional API Model
 
 ![Screen Shot 2022-07-17 at 3 06 10 PM](https://user-images.githubusercontent.com/88747464/179421057-33a5c058-2b4d-4dde-9123-630c83a085c5.png)
 
@@ -164,19 +168,17 @@ Use Natural Language Processing (NLP) to cleaned the reviews.
 | --- | --- | --- |
 | Training | 97% | 0.12 |
 | Validation | 79% | 0.42 |
-| Testing | 74% | 0.56 |
+| Testing | 74% | 0.56 | 
 
-**ROC-AUC** score is 0.82.
+ROC-AUC score is 0.82.
 
-* Early Stopping
+#### Early Stopping
 
 Early Stopping Criteria were used to avoid the model from overfitting. 
 
 The maximum epochs of this model are 40, but it stopped training at 26 epochs since metrics were not improved anymore. 
 
 ![Screen Shot 2022-07-17 at 3 25 01 PM](https://user-images.githubusercontent.com/88747464/179422365-dc63a1c6-7264-4bb6-ba3b-46389461d343.png)
-
-### Findings
 
 Overall, the **Functional API** Model achieves a better performance, which should be used for future analysis.
 
