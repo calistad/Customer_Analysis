@@ -78,7 +78,7 @@ The dataset consists of 522,000+ transactions.
 
 ![Screen Shot 2022-09-19 at 9 55 17 PM](https://user-images.githubusercontent.com/88747464/191150426-0133d7db-0e53-4d27-a07d-6421946a48e5.png)
 
-Analyze Support, Lift, and Confidence Metrics
+Analyze Support, Lift, and Confidence Metrics.
 
 ![Screen Shot 2022-09-19 at 9 55 37 PM](https://user-images.githubusercontent.com/88747464/191150596-da0bca2a-4d70-4bf4-ae60-9c0074d7883e.png)
 
@@ -100,6 +100,21 @@ Top 5 products with the highest support and confidence values, given the lift va
 
 ### Approach
 
+The dataset consists of 530,000+ transactions.
+
+![Screen Shot 2022-09-19 at 10 07 18 PM](https://user-images.githubusercontent.com/88747464/191151791-8bfc3a49-7e92-425b-bb5d-0ff432879887.png)
+
+* Customer to Product Matrix
+
+![Screen Shot 2022-09-19 at 10 11 54 PM](https://user-images.githubusercontent.com/88747464/191151996-137280db-cb81-4906-b775-2bc3b62fadce.png)
+
+* Customer to Customer Matrix
+
+![Screen Shot 2022-09-19 at 10 09 49 PM](https://user-images.githubusercontent.com/88747464/191151846-eae6efb2-3751-41d4-90d9-c96c920d21a7.png)
+
+* Product to Product Matrix
+
+![Screen Shot 2022-09-19 at 10 11 35 PM](https://user-images.githubusercontent.com/88747464/191152045-6753f745-3215-4607-9853-f1b0f825d463.png)
 
 
 ### Finding
