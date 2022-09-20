@@ -14,7 +14,7 @@ Help a company to optimize sales while better understand the customers by conduc
 
 ## 1. Customer Classification
 
-[Click here for a more detailed version]
+[Click here for a detailed version](https://github.com/calistad/Customer_Analysis/blob/main/Customer_subscription.md)
 
 The company launches a mobile app with the free version and the paid upgrade version. The company provided the upgrade version in the free version app for 24 hours to collect the customer’s behavior. 
 
@@ -131,6 +131,8 @@ Use the given `Stock Code` to get the recommend products based on item similarit
 
 
 ## 4. Customer Sentiment
+
+[Click here for a detailed version](https://github.com/calistad/Customer_Analysis/blob/main/Customer_sentiment.md)
 
 Analyze 1,000 customers' previous reviews and then predict future consumers' sentiments to improve satisfaction.
 
