@@ -114,6 +114,8 @@ However, this would be **time-consuming** and **computationally intensive** for 
 
 ## Resources
 
-Dataset: https://www.kaggle.com/datasets/hkhamnakhalid/customers-to-subscription-through-app-behavior?select=clean_FineTech_appData.csv
+Customers_to_Subscription_Through_App_Behavior. (2021, April 6). Kaggle. Retrieved September 20, 2022, from https://www.kaggle.com/datasets/hkhamnakhalid/customers-to-subscription-through-app-behavior?select=clean_FineTech_appData.csv
 
-Lift Curve: https://towardsdatascience.com/the-lift-curve-unveiled-998851147871
+Thorn, J. (2021, December 13). The Lift Curve: Unveiled - Towards Data Science. Medium. Retrieved September 20, 2022, from https://towardsdatascience.com/the-lift-curve-unveiled-998851147871
+
+
