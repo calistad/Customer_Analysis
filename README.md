@@ -88,6 +88,7 @@ Analyze Support, Lift, and Confidence Metrics.
 
 * Apriori - Top 5 products with the highest support values.
 
+![Screen Shot 2022-09-19 at 10 13 48 PM](https://user-images.githubusercontent.com/88747464/191152220-5715f01c-0d6d-40f3-9184-b737899b77f2.png)
 
 * Association Rules
 
@@ -104,7 +105,7 @@ The dataset consists of 530,000+ transactions.
 
 ![Screen Shot 2022-09-19 at 10 07 18 PM](https://user-images.githubusercontent.com/88747464/191151791-8bfc3a49-7e92-425b-bb5d-0ff432879887.png)
 
-* Customer to Product Matrix
+* Customer to Product Matrix - Cosine Similarity
 
 ![Screen Shot 2022-09-19 at 10 11 54 PM](https://user-images.githubusercontent.com/88747464/191151996-137280db-cb81-4906-b775-2bc3b62fadce.png)
 
@@ -116,8 +117,16 @@ The dataset consists of 530,000+ transactions.
 
 ![Screen Shot 2022-09-19 at 10 11 35 PM](https://user-images.githubusercontent.com/88747464/191152045-6753f745-3215-4607-9853-f1b0f825d463.png)
 
-
 ### Finding
+
+Use the given `Customer ID` to get the recommend products based on customer similarity.
+
+![Screen Shot 2022-09-19 at 10 15 30 PM](https://user-images.githubusercontent.com/88747464/191152447-85b33ac4-50d8-4632-b765-46adbd2a028d.png)
+
+Use the given `Stock Code` to get the recommend products based on item similarity.
+
+![Screen Shot 2022-09-19 at 10 16 58 PM](https://user-images.githubusercontent.com/88747464/191152592-b78d8143-65e9-4941-8d8d-a782cf5b283c.png)
+
 
 ## Customer Sentiment
 
