@@ -74,11 +74,33 @@ Two models would be recommended with the best performance.
 
 ### Approach
 
+The dataset consists of 522,000+ transactions.
+
+![Screen Shot 2022-09-19 at 9 55 17 PM](https://user-images.githubusercontent.com/88747464/191150426-0133d7db-0e53-4d27-a07d-6421946a48e5.png)
+
+Analyze Support, Lift, and Confidence Metrics
+
+![Screen Shot 2022-09-19 at 9 55 37 PM](https://user-images.githubusercontent.com/88747464/191150596-da0bca2a-4d70-4bf4-ae60-9c0074d7883e.png)
+
+![Screen Shot 2022-09-19 at 9 55 47 PM](https://user-images.githubusercontent.com/88747464/191150608-4bfaf82d-2710-451b-bca0-80ed34267167.png)
+
 ### Finding
+
+* Apriori - Top 5 products with the highest support values.
+
+
+* Association Rules
+
+Top 5 products with the highest support and confidence values, given the lift value inidicates the relationship between items are not random.
+
+![Screen Shot 2022-09-19 at 9 56 11 PM](https://user-images.githubusercontent.com/88747464/191150691-42b021a2-33f3-4d52-ad17-18b163eb3f27.png)
+
 
 ## Customer Purchases and Recommendations
 
 ### Approach
+
+
 
 ### Finding
 
