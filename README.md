@@ -138,7 +138,7 @@ Analyze 1,000 customers' previous reviews and then predict future consumers' sen
 
 ### Approach
 
-Use Natural Language Processing (NLP) to cleaned the reviews.
+Use Natural Language Processing (NLP) to clean the reviews.
 
 ![Screen Shot 2022-09-19 at 10 41 11 PM](https://user-images.githubusercontent.com/88747464/191155469-dc4bfb75-ef93-4e28-baa8-cc47688c1e37.png)
 
