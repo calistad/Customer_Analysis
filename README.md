@@ -94,7 +94,7 @@ Top 5 products with the highest support values.
 
 * Association Rules
 
-Top 5 products with the highest support and confidence values, given the lift value inidicates the relationship between items are not random.
+Top 5 products with the highest support and confidence values, given the lift value indicates the relationship between items are not random.
 
 ![Screen Shot 2022-09-19 at 9 56 11 PM](https://user-images.githubusercontent.com/88747464/191150691-42b021a2-33f3-4d52-ad17-18b163eb3f27.png)
 
