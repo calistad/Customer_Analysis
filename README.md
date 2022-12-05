@@ -72,7 +72,7 @@ Two models would be recommended with the best performance.
 
 ## 2. Product Analysis
 
-Group products that would be likely purchased together based on past 522,000+ transactions to optimize sales revenues.
+Group products that would be likely purchased together based on past 522,000+ transactions to optimize revenues.
 
 ### Approach
 
