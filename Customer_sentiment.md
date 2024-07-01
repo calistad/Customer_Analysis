@@ -73,7 +73,7 @@ Overall, the **Functional API** Model achieves a better performance, which shoul
 
 If the company wants to predict future consumer sentiment, **Natural Language Processing** and **Neural Networks** are recommended.
 
-They may further use another model for cross-validation to achieve higher accuracy results.
+They may further use cross-validation techniques to achieve higher accuracy results. However, this would be **time-consuming** and **computationally intensive** for a large dataset. 
 
 ## Resources
 
