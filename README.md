@@ -2,7 +2,7 @@
 
 ## Overview
 
-Help a company to optimize sales while better understand the customers by conducting 4 data analysis.
+Help a company optimize sales while better-understanding customers by conducting 4 data analyses.
 
 * Classify 50,000 customers based on their behaviors to enhance subscriptions and eliminate budget.
 
@@ -16,9 +16,9 @@ Help a company to optimize sales while better understand the customers by conduc
 
 [Click here for a detailed version](https://github.com/calistad/Customer_Analysis/blob/main/Customer_subscription.md)
 
-The company launches a mobile app with the free version and the paid upgrade version. The company provided the upgrade version in the free version app for 24 hours to collect the customer’s behavior. 
+The company has launched a mobile app with a free and paid upgrade version. The upgraded version is provided for free for 24 hours to collect the customer’s behavior. 
 
-The main goal is to sell the premium version app at a low advertisement cost to eliminate budget while enhancing subscriptions.
+The main goal is to sell the premium version at a low advertisement cost to eliminate budget while enhancing subscriptions.
 
 ### Approach
 
@@ -55,7 +55,7 @@ Two models would be recommended with the best performance.
 * Greatest performance on Lift Curve
 
 #### Logistic Regression
-* Most accurate predictions on testing dataset
+* Most accurate predictions on the testing dataset
 * Highest Precision - 'No'
 * Highest Recall - 'Yes'
 
@@ -94,38 +94,38 @@ Top 5 products with the highest support values.
 
 * Association Rules
 
-Top 5 products with the highest support and confidence values, given the lift value indicates the relationship between items are not random.
+Top 5 products with the highest support and confidence values, given the lift value, indicate the relationship between items is not random.
 
 ![Screen Shot 2022-09-19 at 9 56 11 PM](https://user-images.githubusercontent.com/88747464/191150691-42b021a2-33f3-4d52-ad17-18b163eb3f27.png)
 
 
 ## 3. Customer Purchases and Recommendations
 
-Recommend items that a customer might want to purchase based on a group of customers' past transaction with 530,000+ records.
+Recommend items that a customer might want to purchase based on a group of customers' past transactions with 530,000+ records.
 
 ### Approach
 
 ![Screen Shot 2022-09-19 at 10 07 18 PM](https://user-images.githubusercontent.com/88747464/191151791-8bfc3a49-7e92-425b-bb5d-0ff432879887.png)
 
-* Customer to Product Matrix - Cosine Similarity
+* Customer-to-Product Matrix - Cosine Similarity
 
 ![Screen Shot 2022-09-19 at 10 11 54 PM](https://user-images.githubusercontent.com/88747464/191151996-137280db-cb81-4906-b775-2bc3b62fadce.png)
 
-* Customer to Customer Matrix
+* Customer-to-Customer Matrix
 
 ![Screen Shot 2022-09-19 at 10 09 49 PM](https://user-images.githubusercontent.com/88747464/191151846-eae6efb2-3751-41d4-90d9-c96c920d21a7.png)
 
-* Product to Product Matrix
+* Product-to-Product Matrix
 
 ![Screen Shot 2022-09-19 at 10 11 35 PM](https://user-images.githubusercontent.com/88747464/191152045-6753f745-3215-4607-9853-f1b0f825d463.png)
 
 ### Findings
 
-Use the given `Customer ID` to get the recommend products based on customer similarity.
+Use the given `Customer ID` to get the recommended products based on customer similarity.
 
 ![Screen Shot 2022-09-19 at 10 15 30 PM](https://user-images.githubusercontent.com/88747464/191152447-85b33ac4-50d8-4632-b765-46adbd2a028d.png)
 
-Use the given `Stock Code` to get the recommend products based on item similarity.
+Use the given `Stock Code` to get the recommended products based on item similarity.
 
 ![Screen Shot 2022-09-19 at 10 16 58 PM](https://user-images.githubusercontent.com/88747464/191152592-b78d8143-65e9-4941-8d8d-a782cf5b283c.png)
 
@@ -176,7 +176,7 @@ ROC-AUC score is 0.82.
 
 #### Early Stopping
 
-Early Stopping Criteria were used to avoid the model from overfitting. 
+Early Stopping Criteria were used to prevent the model from overfitting. 
 
 The maximum epochs of this model are 40, but it stopped training at 26 epochs since metrics were not improved anymore. 
 
