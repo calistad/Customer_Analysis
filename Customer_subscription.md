@@ -2,26 +2,16 @@
 
 ## Overview
 
-A Technical company launches a mobile app with two versions. The free version app contains basic features and the upgrade version contains a premium feature for customers to pay to unlock. 
+The company has launched a mobile app with a free and paid upgrade version. The upgraded version is provided for free for 24 hours to collect the customer’s behavior.
 
-The company provided the premium feature in the free version app for 24 hours to collect the customer’s behavior. The main goal of the company is to sell the premium version app at a low advertisement cost. 
-
-### Research Question
-
-**Is it possible to predict whether the customer will subscribe the premium version of the app?**
-
-## Objective
-
-This study would perform a multivariate statistical classification analysis using various predictive models that could accurately classify the customers from their behaviors on using the online application. 
-
-The end goal would be to analyze the significance of predictor features and identify which model achieves the best performance.
+The main goal is to sell the premium version at a low advertisement cost to eliminate budget while enhancing subscriptions.
 
 ### Purpose
-The analysis would help the company to identify customers that are inclined to subscribe, so they could only advertise to those who do not want to subscribe, which saved partial advertisement costs. 
+Help the company to identify customers that are inclined to subscribe, so they could only advertise to those who do not want to subscribe, which saved partial advertisement costs. 
 
-Further, the company would try to attain more subscribers by promoting offers to those customers who are not intended to subscribe.
+Further, the company could attain more subscribers by promoting offers to those customers who do not intend to subscribe.
 
-## Findings
+## Approach
 
 ### Exploratory Data Analysis
 
@@ -56,11 +46,13 @@ Since the accuracy of Logistic Regression is only 50%, and the accuracy of Rando
 
 Random Forest feature selection technique would be chosen.
 
+Top 5 features for customer enrollment are `VerifyPhone`, `remain_screen_list`, `VerifyDateOfBirth`, `numscreens`, and `location`.
+
 ### Final Data Set
 
 ![Screen Shot 2022-09-01 at 8 00 32 PM](https://user-images.githubusercontent.com/88747464/188031924-ce1a9f7e-781b-4d4c-af3b-1cf793e8e273.png)
 
-## Results
+## Findings
 
 | Logistic Regression | K-Nearest Neighbors | Decision Tree Classification |
 | --- | --- | --- | 
@@ -86,9 +78,7 @@ Random Forest feature selection technique would be chosen.
 
 Overall, the above models achieved similar performance with an accuracy of around 75%. 
 
-The top five most significant features for customer enrollment are `VerifyPhone`, `remain_screen_list`, `VerifyDateOfBirth`, `numscreens`, and `location`.
-
-Two models would be recommended with the best performance.
+2 models would be recommended with the best performance.
 
 #### Extreme Gradient Booster
 * Highest Accuracy
@@ -98,7 +88,7 @@ Two models would be recommended with the best performance.
 * Greatest performance on Lift Curve
 
 #### Logistic Regression
-* Most accurate predictions on testing dataset
+* Most accurate predictions on the testing dataset
 * Highest Precision - 'No'
 * Highest Recall - 'Yes'
 
