@@ -2,16 +2,15 @@
 
 ## Overview
 
-To analyze customers' previous reviews from Amazon and then predict future consumers' sentiments.
-
-### Purpose
-Is it possible to analyze customer sentiment using **Neural Network** and **Natural Language Processing** techniques, so the company can provide appropriate actions to improve customer satisfaction?
+The company wants to improve customer satisfaction:
+- Analyze customers' previous reviews from Amazon using **Natural Language Processing**.
+- Predict future consumers' sentiments using **Neural Network**.
 
 ## Results
 
-**Deep Learning Neural Network** is capable to perform a text classification with high accuracy and lower-level computation. 
+**Deep Learning Neural Network** - capable of performing text classification with high accuracy and lower-level computation. 
 
-**Recurrent Neural Network (RNN)** are used for sentiment analysis, which would learn the writers' emotions by analyzing texts.
+**Recurrent Neural Network (RNN)** - used for sentiment analysis, which would learn the writers' emotions by analyzing texts.
 
 ### Original Reviews vs. Cleaned Reviews
 
@@ -21,11 +20,7 @@ Is it possible to analyze customer sentiment using **Neural Network** and **Natu
 
 ![Screen Shot 2022-07-17 at 2 42 59 PM](https://user-images.githubusercontent.com/88747464/179420295-11698c7c-46bf-4c5c-9371-18f1f4fdbdc2.png)
 
-* The Single Padded Sequence: 
-
-![Screen Shot 2022-07-17 at 2 52 13 PM](https://user-images.githubusercontent.com/88747464/179420600-e3c4ea1c-72fa-455d-9eb2-acf524e5d4ea.png)
-
-### Model1 - Sequential API Model
+### Sequential API Model
 
 ![Screen Shot 2022-07-17 at 3 00 38 PM](https://user-images.githubusercontent.com/88747464/179420849-aff9084f-abcb-4ab8-83d1-80807eaa5b50.png)
 
@@ -40,7 +35,7 @@ Is it possible to analyze customer sentiment using **Neural Network** and **Natu
 
 * **ROC-AUC** score is 0.52.
 
-### Model2 - Functional API Model
+### Functional API Model
 
 ![Screen Shot 2022-07-17 at 3 06 10 PM](https://user-images.githubusercontent.com/88747464/179421057-33a5c058-2b4d-4dde-9123-630c83a085c5.png)
 
@@ -57,14 +52,15 @@ Is it possible to analyze customer sentiment using **Neural Network** and **Natu
 
 ### Early Stopping
 
-Early Stopping Criteria were used to avoid the model from overfitting. The model might stop training once the accuracy does not increase.
+Early Stopping Criteria were used to prevent the model from overfitting.
 
 The maximum epochs of this model are 40, but it stopped training at 26 epochs since metrics were not improved anymore. 
 
 ![Screen Shot 2022-07-17 at 3 25 01 PM](https://user-images.githubusercontent.com/88747464/179422365-dc63a1c6-7264-4bb6-ba3b-46389461d343.png)
 
-Instead of spending time looking over the list and trying to find the best epoch, I would know the final training epoch contains the best
-result. However, if the model trains for lesser epochs with a lower number of patience, this can result in a low accuracy score.
+The final training epoch contains the best result. 
+
+However, if the model trains for lesser epochs with a lower number of patience, this can result in a low accuracy score.
 
 ## Summary
 
@@ -75,9 +71,9 @@ Overall, the **Functional API** Model achieves a better performance, which shoul
 * Loss Function: **Categorical Cross-entropy** (Results in higher accuracy than Binary Cross-entropy.)
 * Optimizer: **Adam** (Handles noise and reduces overfitting to improve the model performance.)
 
-If the company wants to predict future consumer sentiment, they are recommended to use **Natural Language Processing** and **Neural Networks**. 
+If the company wants to predict future consumer sentiment, **Natural Language Processing** and **Neural Networks** are recommended.
 
-They may further use another model for cross-validation to achieve high accuracy results.
+They may further use another model for cross-validation to achieve higher accuracy results.
 
 ## Resources
 
