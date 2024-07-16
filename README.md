@@ -2,15 +2,13 @@
 
 ## Overview
 
-Help a company optimize sales while better-understanding customers by conducting 4 data analyses.
+Help a company optimize sales while better understanding customers by conducting 4 data analyses.
 
 * Classify 50,000 customers based on their behaviors to enhance subscriptions and eliminate budget.
 
 * Combine products that would be likely purchased together by performing a Market Basket Analysis among 522,000+ transactions.
 
 * Implement the Collaborative Filtering Recommender by analyzing 4300+ customers' purchases to suggest similar items.
-
-* Improve customer satisfaction using NLP and Deep Learning models with 74% accuracy.
 
 ## 1. Customer Classification
 
@@ -128,67 +126,6 @@ Use the given `Customer ID` to get the recommended products based on customer si
 Use the given `Stock Code` to get the recommended products based on item similarity.
 
 ![Screen Shot 2022-09-19 at 10 16 58 PM](https://user-images.githubusercontent.com/88747464/191152592-b78d8143-65e9-4941-8d8d-a782cf5b283c.png)
-
-
-## 4. Customer Sentiment
-
-[Click here for a detailed version](https://github.com/calistad/Customer_Analysis/blob/main/Customer_sentiment.md)
-
-Analyze 1,000 customers' previous reviews and then predict future consumers' sentiments to improve satisfaction.
-
-### Approach
-
-Use Natural Language Processing (NLP) to clean the reviews.
-
-![Screen Shot 2022-09-19 at 10 41 11 PM](https://user-images.githubusercontent.com/88747464/191155469-dc4bfb75-ef93-4e28-baa8-cc47688c1e37.png)
-
-### Findings
-
-#### Sequential API Model
-
-![Screen Shot 2022-07-17 at 3 00 38 PM](https://user-images.githubusercontent.com/88747464/179420849-aff9084f-abcb-4ab8-83d1-80807eaa5b50.png)
-
-![Screen Shot 2022-07-17 at 3 00 30 PM](https://user-images.githubusercontent.com/88747464/179420853-72fffa05-9bae-4448-a880-60bfa23638f9.png)
-![Screen Shot 2022-07-17 at 3 00 23 PM](https://user-images.githubusercontent.com/88747464/179420854-64d74db9-ac02-4311-a978-f09823bb12cc.png)
-
-| | Accuracy | Loss |
-| --- | --- | --- |
-| Training | 68% | 0.72 |
-| Validation | 54% | 4.04 |
-| Testing | 51% | 1.63 |
-
-ROC-AUC score is 0.52.
-
-#### Functional API Model
-
-![Screen Shot 2022-07-17 at 3 06 10 PM](https://user-images.githubusercontent.com/88747464/179421057-33a5c058-2b4d-4dde-9123-630c83a085c5.png)
-
-![Screen Shot 2022-07-17 at 3 06 18 PM](https://user-images.githubusercontent.com/88747464/179421070-b942c25c-ec80-4ca1-97c5-5a3de714270c.png)
-![Screen Shot 2022-07-17 at 3 06 26 PM](https://user-images.githubusercontent.com/88747464/179421073-81b34a76-6aef-4583-a0e1-3478df7b40b2.png)
-
-| | Accuracy | Loss |
-| --- | --- | --- |
-| Training | 97% | 0.12 |
-| Validation | 79% | 0.42 |
-| Testing | 74% | 0.56 | 
-
-ROC-AUC score is 0.82.
-
-#### Early Stopping
-
-Early Stopping Criteria were used to prevent the model from overfitting. 
-
-The maximum epochs of this model are 40, but it stopped training at 26 epochs since metrics were not improved anymore. 
-
-![Screen Shot 2022-07-17 at 3 25 01 PM](https://user-images.githubusercontent.com/88747464/179422365-dc63a1c6-7264-4bb6-ba3b-46389461d343.png)
-
-Overall, the **Functional API** Model achieves a better performance, which should be used for future analysis.
-
-* Dense hidden layers: **Rectified Linear Activation (ReLu) Function** (Results in higher accuracy than Sigmoid Function.)
-* Dense output layer: **SoftMax Function**
-* Loss Function: **Categorical Cross-entropy** (Results in higher accuracy than Binary Cross-entropy.)
-* Optimizer: **Adam** (Handles noise and reduces overfitting to improve the model performance.)
-
 
 ## Resources
 
