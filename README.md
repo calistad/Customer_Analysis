@@ -2,7 +2,7 @@
 
 ## Overview
 
-Help a company optimize sales while better understanding customers by conducting 4 data analyses.
+Help a company optimize sales while better-understanding customers by conducting 3 data analyses.
 
 * Classify 50,000 customers based on their behaviors to enhance subscriptions and eliminate budget.
 
@@ -14,9 +14,9 @@ Help a company optimize sales while better understanding customers by conducting
 
 [Click here for a detailed version](https://github.com/calistad/Customer_Analysis/blob/main/Customer_subscription.md)
 
-The company has launched a mobile app with a free and paid upgrade version. The upgraded version is provided for free for 24 hours to collect the customer’s behavior. 
+The company has launched a free and paid upgrade version of a mobile app. The upgraded version is provided at no cost for 24 hours to collect the customer’s behavior. 
 
-The main goal is to sell the premium version at a low advertisement cost to eliminate budget while enhancing subscriptions.
+The main goal is to sell the premium version at a low advertisement cost to eliminate the budget while enhancing subscriptions.
 
 ### Approach
 
